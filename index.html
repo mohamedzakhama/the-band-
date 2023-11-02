@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>BAND</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="bg-black p-2 relative container mx-auto sm:p-2 sm:relative sm:container sm:mx-auto">
+      <div class="flex items-center justify-between">
+        <a href="#" class="text-white text-xl">HOME</a>
+        <div class="flex items-center">
+          <a href="#band" class="text-white p-2">BAND</a>
+          <a href="#tour" class="text-white p-2">TOUR</a>
+          <a href="#contact" class="text-white">CONTACT</a>
+        </div>
+        <div class="relative group ml-auto sm:relative group ml-auto">
+          <button class="text-white p-2 focus:outline-none ">MORE</button>
+          <div
+            class="hidden group-hover:block absolute bg-black mt-2 py-2 px-4 text-white"
+          >
+            <a href="#" class="custom-button p-2">Merchandise</a>
+            <a href="#" class="custom-button p-2">Extras</a>
+            <a href="#" class="custom-button p-2">Media</a>
+          </div>
+        </div>
+        <div class=" sm:flex relative text-black p-2">
+          <input type="text" placeholder="search" />
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Slideshow container -->
+    <div class="flex">
+      <div class="slide">
+        <img src="img\ny.jpg" alt="New York" class="w-full" />
+      </div>
+      <div class="slide">
+        <img src="img\la.jpg" alt="Los Angeles" class="w-full" />
+      </div>
+      <div class="slide">
+        <img src="img\chicago.jpg" alt="Chicago" class="w-full" />
+      </div>
+    </div>
+    <!--Band section-->
+    <h2 class="text-center text-4xl" id="band">THE BAND</h2>
+    <h3 class="text-center text-sm text-gray-600">We Love Music</h3>
+    <p  class="text-center px-4 py-2 ">
+      We have created a fictional band website. Lorem ipsum dolor sit amet,
+      consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+      dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+      nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+      culpa qui officia deserunt mollit anim id est laborum consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    <br>
+    <div class="flex flex-wrap justify-center">
+      <div class="p-4 sm:p-8 lg:p-16 xl:p-32 flex flex-col items-center">
+        <p class="text-center mb-4">Name</p>
+        <img src="\img\bandmember.jpg" alt="Bandmember" class="w-20 sm:w-32 lg:w-48 xl:w-64">
+      </div>
+      
+      <div class="p-4 sm:p-8 lg:p-16 xl:p-32 flex flex-col items-center">
+        <p class="text-center mb-4">Name</p>
+        <img src="\img\bandmember.jpg" alt="Bandmember" class="w-20 sm:w-32 lg:w-48 xl:w-64">
+      </div>
+    
+      <div class="p-4 sm:p-8 lg:p-16 xl:p-32 flex flex-col items-center">
+        <p class="text-center mb-4">Name</p>
+        <img src="\img\bandmember.jpg" alt="Bandmember" class="w-20 sm:w-32 lg:w-48 xl:w-64">
+      </div>
+    </div>
+    
+
+    <!--The Tour Section-->
+    <div class="#tour" id="tour">
+    <div class="text-center bg-black  " >
+       <h2 class="text-white">TOUR DATES</h2>
+       <h3 class="text-gray-600">Remember to book your tickets!</h3>
+       <ul class=" text-gray-600 text-left ">
+        <li class="bg-white bg-center text-left p-2 border-solid border-2 m-3 px-2">
+            September <span class="text-white bg-brightRed px-1">Sold out</span>
+        </li>
+        
+        <li class="bg-white bg-center text-left p-2 border-solid border-2 m-3 px-2">
+            October <span class="text-white bg-brightRed px-1">Sold out</span>
+        </li>
+        <li class="bg-white bg-center text-left p-2 border-solid border-2 m-3 px-2">
+            December <span class="text-white bg-black mx-2 float-right">3</span>
+
+
+        </li>
+        
+        
+       </ul>
+    </div>
+    <div class="bg-black flex justify-center">
+
+        
+        <div class="flex flex-col items-center bg-white text-center p-4 m-2">
+            <img src="img\newyork.jpg" alt="new york" class="w-15">
+            <p>New York</p><br>
+            <p class="text-gray-600">Fri 27 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="bg-black p-2 w-15 text-white" on click="openModel()">Buy Tickets</button>
+           
+            
+        </div>
+
+
+
+        <div class="flex flex-col items-center bg-white text-center p-4 m-2">
+            <img src="img\paris.jpg" alt="paris" class="w-15">
+            <p>Paris</p><br>
+            <p class="text-gray-600">Fri 29 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="bg-black p-2 w-15 text-white">Buy Tickets</button>
+            
+        </div>
+        
+        <div class="flex flex-col items-center bg-white text-center p-4 m-2">
+            <img src="img\sanfran.jpg" alt="san francisco" class="w-15">
+            <p>San Francisco</p><br>
+            <p class="text-gray-600">Fri 28 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="bg-black p-2 w-15 text-white">Buy Tickets</button>
+        </div>
+    
+        
+        
+    
+    </div>
+
+    <!--Contact-->
+    <div class="text-center bg-white" id="contact">
+        <h2 class="text-xl justify-center p-8">CONTACT</h2>
+        <p class="text-gray-600 ital"><i>Fan? Drop a note!</i></p>
+         <div class="p-8 m-4">
+        <p class="text-left ">Chicago, US</p>
+        <p class="text-left  ">Phone: +00 151515</p>
+        <p class="text-left  "> Email: mail@mail.com</p>
+    </div>
+    <div class="max-w-md bg-white py-2 rounded shadow-lg mt-6 mx-auto">
+        <form>
+            <div class="mb-4 text-left">
+                <label for="name" class="block text-gray-700">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" class="border border-gray-300 rounded px-3 py-2 w-full">
+            </div>
+            <div class="mb-4 text left">
+                <label for="email" class="block text-gray-700">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email" class="border border-gray-300 rounded px-3 py-2 w-full">
+            </div>
+            <div class="mb-4 text-left">
+                <label for="message" class="block text-gray-700">Message</label>
+                <textarea id="message" name="message" placeholder="Your message" class="border border-gray-300 rounded px-3 py-2 w-full"></textarea>
+            </div>
+            <div class="flex justify-end">
+                <button type="button" onclick="sendMessage()" class="bg-black text-white px-4 py-2 rounded">Send</button>
+            </div>
+        </form>
+    </div>
+
+      <!--footer-->
+      <div class="">
+       <img src="img\map.jpg" alt="map">
+      </div>
+      <footer>
+        <ul class=" bg- veryLightGray flex justify-center p-6 ">
+          <li class="mx-2"><a href="https://www.facebook.com/"><img  class="w-6" src="img\facebook-icone-gris.png" alt="fb"></a></li>
+          <li class="mx-2"><a href="https://www.instagram.com/accounts/login/"><img class="w-6" src="img\instagram.png" alt="insta"></a></li>
+          <li class="mx-2"><a href="https://www.snapchat.com/"><img class="w-6" src="img\5a4e30612da5ad73df7efe71.png" alt="snap"></a></li>
+          <li class="mx-2"><a href="https://www.pinterest.fr/login/"><img class="w-6" src="img\pinter.png" alt="pin"></a></li>
+          <li class="mx-2"><a href="https://twitter.com/"><img class="w-6" src="img\twitterr.png" alt="twitter"></a></li>
+          <li class="mx-2"><a href="https://www.linkedin.com/login"><img class="w-6"src="img\link.png" alt="linkk"></a></li>
+        </ul>
+        <p class="text-center">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+      </footer>
+      
+    </div>
+
+    
+
+   
+  </body>
+  <script>
+     
+  </script>
+</html>
